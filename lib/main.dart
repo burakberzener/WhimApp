@@ -36,11 +36,11 @@ class _MyHomePageState extends State<MyHomePage> {
       TcpSocketConnection("192.168.1.106", 80);
 
   String message = "";
-  String yellowStatus = "yf",
-      blueStatus = "bf",
-      greenStatus = "gf",
-      purpleStatus = "pf",
-      redStatus = "rf";
+  String yellowStatus = "yc",
+      blueStatus = "bc",
+      greenStatus = "gc",
+      purpleStatus = "pc",
+      redStatus = "rc";
   String transmitMessage = "";
 
   bool isConnected = false;
