@@ -33,7 +33,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   TcpSocketConnection socketConnection =
-      TcpSocketConnection("192.168.1.106", 80);
+      TcpSocketConnection("192.168.4.1", 80);
 
   String message = "";
   String yellowStatus = "yc",
